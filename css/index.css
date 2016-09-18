@@ -1,0 +1,246 @@
+html body{
+	-ms-overflow-style:scrollbar;
+}
+.main-wrapper{
+	background:url(/images/banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+}
+#header{
+	overflow:hidden;
+	background:rgba(0,0,0,0.3);
+	color:#FFFFFF;
+}
+#header nav{
+	background:rgba(0,0,0,0.3);
+	height:50px;
+	//overflow:hidden;
+}
+#header nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+}
+.logo{
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	float:left;
+	margin-left:25px;
+}
+#header nav ul li, .logo{
+	display:inline-block;
+	line-height:50px;
+	margin-right:25px;
+}
+#header nav ul li a, .logo a{
+	text-decoration:none;
+	line-height:50px;
+	display:inline-block;
+	height:50px;
+	color:#FFF;
+}
+#header .banner{
+	height:730px;
+	//background-size:100%;
+	//background-image:url(/images/banner.jpg);
+}
+#header .banner .inner{
+	margin:0 auto;
+	text-align:center;
+	width:160px;
+	position:relative;
+	top:180px;
+}
+.hr{
+	margin:0 auto;
+}
+#header .banner .inner .hr{
+	width:80%;
+	height:2px;
+	background:#FFFFFF;
+}
+#header .banner .inner h1{
+	margin:0;
+}
+#header .banner .inner p{
+	line-height:35px;
+	//margin:30px;
+}
+#header .banner .inner .about{
+	border:none;
+	padding:15px 40px;
+	background:orange;
+	color:white;
+}
+#header .banner .more{
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+	top:430px;
+}
+#main{
+	margin:0;
+	width:100%;
+	height:600px;
+	text-align:center;
+	background:#06daa9;
+	color:#FFFFFF;
+}
+#main .content{
+	position:relative;
+	width:500px;
+	margin:0 auto;
+	top:180px;
+}
+#main .content h2{
+	margin:0;
+}
+#main .content .hr{
+	width:60%;
+	border:1px solid #06c89b;
+	margin:30px auto;
+}
+#main .content p{
+	margin:30px;
+}
+#main .content .icongroup .icon{
+	display:inline-block;
+	margin:30px;
+	width:80px;
+	height:80px;
+	border:2px solid #06c89b;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+#main .content .icongroup .icon i{
+	display:inline-block;
+	line-height:80px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+
+}
+#articals-preview{
+	background-color:#1c252f;
+	color:#FFFFFF;
+}
+#articals-preview .artical:nth-child(odd){
+	background:#222c38;
+}
+#articals-preview .artical{
+	overflow:hidden;
+}
+/* 清除浮动，同上 */
+/*#articals-preview .artical:after{
+	//content:"123";
+	//display:block;
+	//clear:both;
+}*/
+#articals-preview .artical > div{
+	float:left;
+}
+#articals-preview .artical .image{
+	width:45%;
+	font-size:0;
+}
+#articals-preview .artical .image img{
+	width:100%;
+}
+#articals-preview .artical .text{
+	max-width:55%;
+	position:relative;
+	top:100px;
+	left:30px;
+}
+#articals-preview .artical .text > *{
+	max-width:90%;
+}
+#articals-preview .artical .text h2{
+	
+}
+#articals-preview .artical .text p{
+	font-size:18px;
+	letter-spacing:1px;	
+}
+#cards-part .wrap .part-heading h2{
+	margin:10px;
+}
+#cards-part .wrap .part-heading .hr{
+	width:80%;
+	height:2px;
+	background:#7728CC;
+}
+#cards-part .wrap .part-heading p{
+	margin:20px;
+	letter-spacing:1px;
+}
+#cards-part{
+	background:#7830EF;
+	overflow:hidden;
+	color:#FFFFFF;
+	padding:80px;
+}
+#cards-part .wrap{
+	max-width:60%;
+	margin:0 auto;
+	position:relative;
+}
+#cards-part .wrap .part-heading{
+	text-align:center;
+}
+#cards-part .wrap .card-group{
+	max-width:100%;
+	margin:0 auto;
+}
+#cards-part .wrap .card-group .card{
+	max-width:50%;
+	min-height:200px;
+	padding:50px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+#cards-part .wrap .card-group > div{
+	float:left;
+}
+#cards-part .wrap .card-group .card:nth-child(1){
+	background:rgba(0,0,0,0.04);
+}
+#cards-part .wrap .card-group .card:nth-child(2){
+	background:rgba(0,0,0,0.08);
+}
+#cards-part .wrap .card-group .card:nth-child(3){
+	background:rgba(0,0,0,0.12);
+}
+#cards-part .wrap .card-group .card:nth-child(4){
+	background:rgba(0,0,0,0.16);
+}
+#cards-part .wrap .card-group .card:nth-child(5){
+	background:rgba(0,0,0,0.20);
+}
+#cards-part .wrap .card-group .card:nth-child(6){
+	background:rgba(0,0,0,0.24);
+}
+#footer{
+	min-height:200px;
+	background:#333;
+	color:#FFF;
+	text-align:center;
+}
+#footer ul.share-group{
+	display:block;
+	margin:0 auto;
+	width:800px;
+	list-style:none;
+	padding:50px;
+}
+#footer ul.share-group li{
+	display:inline-block;
+	padding:10px;
+}
+
