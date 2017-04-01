@@ -2,7 +2,7 @@ html body{
 	-ms-overflow-style:scrollbar;
 }
 .main-wrapper{
-	background:url(/images/banner.jpg);
+	background:url(../images/banner.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
